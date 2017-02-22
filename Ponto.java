@@ -13,24 +13,21 @@ public double getY(){
 	return y;
 }
 public static void  main (String [] args){
+	double a,b,c,d;
 	Ponto p1 = new Ponto();
 	Ponto p2 =new Ponto();	
-	p1.setX(10.0);
-	p1.setY(20.0);
+	p1.setX(4);
+	p1.setY(5);
 	p1.getX();
 	p1.getY();
-	p2.setX(20.0);
-	p2.setY(10.0);
+	p2.setX(5);
+	p2.setY(3);
 	p2.getX();
 	p2.getY();
-	Ponto p3 = new Ponto ();
-		p3.x=50; p3.y=70;
-		p1=p3;
-	System.out.println(p3.x +","+ p3.y);
-		Ponto p4=p3;
-	System.out.println(p4.x+","+p4.y);
-
+  a = p2.getY()-p1.getY();
+  b = p2.getX()-p1.getX();
+ d= Math.pow(a,2)+Math.pow(b,2);
+c=Math.sqrt(d);
+System.out.println(c);
 }
-
-
 }
