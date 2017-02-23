@@ -25,12 +25,12 @@ public static void  main (String [] args){
 	Ponto p1 = new Ponto();
 	Ponto p2 =new Ponto();
 	Ponto p4= new Ponto(4,0);
-	p1.setX(4);
-	p1.setY(5);
+	p1.setX(10.0);
+	p1.setY(20.0);
 	p1.getX();
 	p1.getY();
-	p2.setX(5);
-	p2.setY(3);
+	p2.setX(15.0);
+	p2.setY(30.0);
 	p2.getX();
 	p2.getY();
   a = p2.getY()-p1.getY();
@@ -45,11 +45,12 @@ System.out.println(c);
         r1.getP1().getY();
         r1.getP2().getX();
         r1.getP2().getY();
-        p1.setX(30);
-        r1.getP2().setY(40);
+       // p1.setX(30);
+       // r1.getP2().setY(40);
 
         System.out.println(r1.getP1().getX()+" "+ r1.getP1().getY()+" "+r1.getP2().getX()+" "+r1.getP2().getY());       
-        p1.setX(4);
+       // p1.setX(4);
+	 System.out.println(r1.Area(r1.getP1().getX(), r1.getP1().getY(),r1.getP2().getX(),r1.getP2().getY()));
 
 }
 }
