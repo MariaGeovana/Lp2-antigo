@@ -1,6 +1,6 @@
-public class FiguraGeometricas{
-	public void calcularPerimetro(){
+public class FigurasGeometrica{
+	public void Perimetro(){
 	}
-	public void calcularArea(){
-	}
+	public void Area(){
+}
 }

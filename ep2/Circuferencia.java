@@ -1,17 +1,17 @@
-public class Circunferencia extends FigurasGeometricas {
-		private float r,pi;
-		public  Circunferencia (float raio, float pi){
+public class Circuferencia extends FigurasGeometrica {
+		private double r,pi;
+		public  Circuferencia (double raio, double pi){
 				this.r = raio;
 				this.pi = pi;
 		}
-		public float perimetro(){
-			public float p;
-				p=pi*(2*r)
+		public double perimetro(){
+			 double p;
+				p=pi*(2*r);
 				return p;
 		}
-		public float area(){
-			public float a;
-				a=pi* Math.pow(r,2)
+		public double area(){
+			double a;
+				a=pi* Math.pow(r,2);
 				return a;
 		}
 

@@ -1,17 +1,17 @@
-public class Quadrado extends FigurasGeometricas {
-		private float l;
-		public  Quadrado (float lado){
+public class Quadrado extends FigurasGeometrica {
+		private double l;
+		public  Quadrado (double lado){
 				this.l = lado;
 				
 		}
-		public float perimetro(){
-			public float p;
-				p=lado+lado+lado+lado;
+		public double perimetro(){
+			double p;
+				p=l+l+l+l;
 				return p;
 		}
-		public float area(){
-			public float a;
-				a=Math.pow(l,2)
+		public double area(){
+			double a;
+				a= Math.pow(l,2);
 				return a;
 		}
 
