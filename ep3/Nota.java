@@ -1,12 +1,12 @@
 import java.util.Arrays;
-public class Nota{
+public class  Nota implements Comparable <Nota>{
 	private double valor;
 	private Aluno aluno;
 	private Disciplina disciplina;
 public Nota( double v ,Aluno a,Disciplina d){
 		this.valor = v;
 		this.aluno = a;
-		this. disciplina =d;
+		this.disciplina = d;
 }
 
 public void setValor(double v){
