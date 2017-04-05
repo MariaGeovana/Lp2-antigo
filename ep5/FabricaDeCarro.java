@@ -6,9 +6,9 @@ public class FabricaDeCarro{
 	protected int ford;
 	protected int volks;
 	
-	public static synchronized FabricaDeCarro getInstacia(){
+	public static synchronized FabricaDeCarro getInstancia(){
 		if(instancia ==null)
-			instacia = new FabricaDeCarro() ;
+			instancia = new FabricaDeCarro() ;
 			return instancia;
 
 }
